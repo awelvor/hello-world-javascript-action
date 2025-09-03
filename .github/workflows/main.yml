@@ -16,12 +16,11 @@ jobs:
         
       - name: hello philippe
         run: echo "hello philippe"
-      - name: step1
-        run: const os = require('os');
+     
         
 
       - name: Hello world action step
-        uses: ./ # Uses an action in the root directory
+        uses: ./src/index.js
         id: hello
         with:
           who-to-greet: Mona the Octocat
