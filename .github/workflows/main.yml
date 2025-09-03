@@ -13,6 +13,9 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v4
+        
+      - name: hello philippe
+        run: echo "hello philippe"
 
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
