@@ -13,6 +13,7 @@ jobs:
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v5
+      - run: npm init -y
 
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
