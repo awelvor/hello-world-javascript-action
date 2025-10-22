@@ -14,6 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
       - run: npm init -y
+      - run: npm install @actions/core @actions/github
+
       - run: ls -a
 
       - name: Hello world action step
