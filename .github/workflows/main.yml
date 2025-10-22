@@ -16,7 +16,7 @@ jobs:
       - run: npm init -y
       - run: npm install @actions/core @actions/github
       - run: npm install --save-dev rollup @rollup/plugin-commonjs @rollup/plugin-node-resolve
-      - run: rollup --config rollup.config.js
+      - run: rollup --config rollup.config.mjs
 
       - run: ls -a
 
