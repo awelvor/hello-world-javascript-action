@@ -26,6 +26,12 @@ jobs:
         id: hello
         with:
           who-to-greet: Philippe
+      - name: Hello world action step
+       
+        uses: ./src/index2.js
+        id: hello
+        with:
+          who-to-greet: Nicole
 
       # Use the output from the `hello` step
       - name: Get the output time
