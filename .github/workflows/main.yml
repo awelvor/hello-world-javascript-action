@@ -28,7 +28,7 @@ jobs:
           who-to-greet: Philippe
       - name: Hello world action step
        
-        uses: ./src/index2.js
+        uses: ./ # Uses an action in the root directory
         id: hello2
         with:
           who-to-greet: Nicole
