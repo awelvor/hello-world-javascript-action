@@ -29,7 +29,7 @@ jobs:
       - name: Hello world action step
        
         uses: ./src/index2.js
-        id: hello
+        id: hello2
         with:
           who-to-greet: Nicole
 
